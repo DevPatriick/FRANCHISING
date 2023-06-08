@@ -1,0 +1,64 @@
+.video{
+    text-align: center;
+    color: #020240;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    border-top: 1px solid #020240;
+    padding-top: 5%;
+}
+
+iframe{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+
+#beneficios{
+    background-color: #3C4390;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 300px;
+text-align: center;
+margin-top: 10%;
+padding-top: 5%;
+font-size: 120%;
+}
+
+
+#presenca{
+    width: 55%;
+    margin-left: 5%;
+    margin-top: 10%;
+    height: 40%;
+}
+
+#falecom{
+    background-color: #FD5301;
+    position: absolute;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    border: none;
+    width: 10%;
+    height: 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+#franchising-group-site-f7280235ee6051d4c13b{
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#mapaformatacao{
+    display: flex;
+}
+
+#banner02{
+margin-top: 5%;
+}

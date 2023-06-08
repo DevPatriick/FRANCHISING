@@ -1,0 +1,65 @@
+
+
+#mapss h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #020240;
+    padding-top: 1%;
+}
+
+#mapss h1{
+    font-size: 200%;
+    margin-top: 30%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#button_maps{
+     background-color: #Fe5301;
+     color: white;
+     border-radius: 20px;
+     border-color: #Fe5301;
+     width: 400px;
+     height: 45px;
+     margin-left: 35%;
+     font-size: 120%;
+     margin-top: 3%;
+     cursor: pointer;
+}
+
+#mapss img{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 4%;
+}
+
+@media only screen and (max-width: 450px) and (min-width: 330px){
+     
+    #mapss{
+        display: block;
+    }
+
+    #mapss h1{
+        margin-top: 150%;
+    }
+
+    #mapss img{
+        width: 100%;
+        margin-top: 4%;
+        margin-left: -0.1%;
+    }
+
+    #button_maps{
+     background-color: #Fe5301;
+     color: white;
+     border-radius: 20px;
+     border-color: #Fe5301;
+     width: 200px;
+     height: 45px;
+     font-size: 120%;
+     margin-top: 3%;
+     cursor: pointer;
+     margin-left: 25%;
+}
+
+}

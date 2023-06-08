@@ -1,0 +1,152 @@
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color:#020240;
+}
+
+#clients h1{
+    font-size: 180%;
+    color:#020240;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.nichos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color:#Fe5301;
+    margin-top: 10%;
+    transition: 500ms;
+}
+
+.nichos p:hover{
+    transition: 100ms;
+    border-bottom: 1px solid #Fe5301;
+    cursor: pointer;
+    
+}
+
+
+#nichos{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#nichos img{
+    padding: 1%
+}
+
+.common:hover{
+    border-bottom: 1px solid #Fe5301;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+#a{
+    margin-top: -10%;
+}
+
+.alt img{
+    padding-left: 2.5%;
+}
+
+.alt{
+    margin-left: 8%;
+}
+.common h2{
+    font-size: 20px;
+    padding-left: 6px;
+    margin-top: -1px;
+}
+
+#nicho_a, #nicho_b,  #nicho_c,  #nicho_d, #nicho_e, #nicho_f{
+    text-align: center;
+    margin-top: 10%;
+    display: block;
+}
+
+#nicho_a{
+    display: none
+}
+
+#nicho_b{
+    display: none;
+}
+
+#nicho_c{
+    display: none;
+}
+
+#nicho_d{
+    display: none
+}
+
+#nicho_e{
+    display: none
+}
+
+#nicho_f{
+    display: none
+}
+
+#nicho_a img, #nicho_b img, #nicho_c img, #nicho_d img,  #nicho_e img,  #nicho_f img{
+    padding: 3%
+}
+
+#down, #up{
+    display: none;
+}
+
+
+@media only screen and (max-width: 450px) and (min-width: 330px){
+      
+    .nichos h2{
+        font-size: 90%;
+    }
+
+    .nichos img{
+        display: none;
+    }
+
+    .nichos{
+        display: grid;
+    }
+
+    .nichos p{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        border-bottom: 1px solid #Fe5301;
+    }
+ 
+    .nichos img{
+        margin-top: -3px;
+    }
+
+    
+
+    #down{
+        display: block;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin-left: 68%;
+        margin-top: 12%;
+    }
+
+    #up{
+        display: none;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-left: 70%;
+        margin-top: 12%;
+    }
+
+    #nichob,  #nichoc,  #nichod, #nichoe, #nichof{
+        display: none;
+    }
+
+}

@@ -1,0 +1,183 @@
+
+
+.depoimentos{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  #depoiment h1{
+    font-size: 220%;
+    text-align: center;
+    margin-top: 13%;
+  }
+
+  #depoiment{
+    width: 100%;
+  }
+  
+  .depo_A{
+    text-align: center;
+    color: #020240;
+    font-family: 'Open Sans', sans-serif;
+    transform: translate(1000ms);
+    display: none;
+    border: 1px solid grey;
+    width: 80%;
+    height: 100%;
+  margin-left: 15%;
+   margin-top: 5%;
+  }
+  
+  .depo_A p{
+    margin-top: 5%;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+  }
+  
+  .depo_A h3{
+    font-size: 100%;
+    text-align: start;
+    margin-left: 50%;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+  }
+  
+  #btnL, #btnR{
+    cursor: pointer;
+    position: absolute;
+  }
+
+  #perfil{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: -10%;
+  }
+  
+  #btnR{
+    margin-left: 87%;
+    margin-top: 1%;
+    z-index: 50;
+  }
+
+  #btnL{
+    margin-left: 10%;
+    margin-top: 1%;
+    z-index: 50;
+  }
+  
+ 
+
+
+
+  .depoimentos{
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 10%;
+}
+
+html::-webkit-scrollbar{
+  display: none;
+}
+
+.depoimentos::-webkit-scrollbar{
+    display: none;
+}
+
+.img_depoimentos{
+   display: flex;
+   flex-flow: row nowrap;
+   transform: translateX(0);
+    transition: 0.7s ease-in-out;
+    margin-left: 10%;
+}
+
+.img_depoimentos img{
+   width: 100%;
+   padding-right: 15%;
+}
+  
+#depoiment{
+  display: block;
+}
+
+#depoiment2{
+  display: none;
+}
+  
+  
+  @media only screen and (max-width: 450px) and (min-width: 330px){
+    .depoimentos{
+      width: 110%;
+      margin-left: -13%;
+      height:400px;
+
+    }
+
+    .depoimentosresponsive{
+      display: flex;
+      width: 90%;
+      align-items: center;
+      margin-bottom: 50px;
+      margin-top: 10%;
+    }
+
+    #depoiment{
+      display: none;
+    }
+
+    #depoiment2{
+      display: block;
+      text-align: center;
+      margin-top: 5%;
+    }
+  
+    #btnLL{
+       width: 20px;
+       z-index: 19;
+    }
+
+    #btnRR{
+      width: 20px;
+    margin-left: 95%;  
+     z-index: 19;
+     position: absolute;
+     }
+
+  
+
+    #perfil{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      margin-left: -30%;
+    }
+
+    
+.img_depoimentosres{
+  display: flex;
+  flex-flow: row nowrap;
+  transform: translateX(0);
+   transition: 0.7s ease-in-out;
+   margin-left: 10%;
+}
+
+.img_depoimentosres img{
+  width: 150%;
+ margin-right: 12%;
+ margin-left: -12%;
+ padding-right: 18%;
+}
+
+#gold{
+  margin-left: -30%;
+}
+
+
+  }
+  
+  
