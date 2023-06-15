@@ -39,7 +39,7 @@
   
     .blogs{
       width: 25%;
-      height: 500px;
+      height: 510px;
       box-shadow: 0 20px 40px rgba(4, 4, 4, 0.1);
       border-radius: 10px;
       transition: 400ms;
@@ -113,11 +113,58 @@
     cursor: pointer;
   }
   
+
+  #mais4:hover{
+    border-bottom: 1px solid #020240;
+    cursor: pointer;
+}
+
+#mais4{
+    display: none;
+}
+
+#menos4{
+  display: none;
+}
+
+#menos4:hover{
+  border-bottom: 1px solid #020240;
+  cursor: pointer;
+}
+
+
+
+#mais5:hover{
+  border-bottom: 1px solid #020240;
+  cursor: pointer;
+}
+
+#mais5{
+  display: none;
+}
+
+#menos5{
+display: none;
+}
+
+#menos5:hover{
+border-bottom: 1px solid #020240;
+cursor: pointer;
+}
   
   
   .nexts{
       display: none;
   }
+
+  .nextss{
+    display: none;
+}
+
+.nextsss{
+  display: none;
+}
+
   
   #mais3:hover{
       border-bottom: 1px solid #020240;
@@ -144,8 +191,210 @@
   #blog1{
     display: none;
   }
+  @media only screen and (max-width: 450px) and (min-width: 401px){
+    #blog1{
+      border-bottom: 1px solid rgb(192, 192, 192);
+      display: block;
+    }
+    
+    
+    #blog1 h1{
+        font-size: 220%;
+        margin-top: 18%;
+        text-align: center;
+      }
+    
+      .blogs1 h3, h6{
+        color: black;
+        margin-top: 10%;
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+    
+      .blogs1 h6{
+        font-size: 80%;
+      }
+    
+      #read1{
+        font-size: 70%;
+        margin-bottom: -5%;
+        color: greenyellow;
+      }
+    
+      .blogs{
+        margin-left: 30%;
+        width: 95%;
+      }
+      #name1{
+        font-size: 70%;
+        border-top: 1px solid grey;
+        padding-top: 5%;
+        margin-top: 15%;
+      }
+    
+    
+      .blogs1{
+        width: 98%;
+        height: 550px;
+        box-shadow: 0 20px 40px rgba(4, 4, 4, 0.1);
+        border-radius: 10px;
+        transition: 400ms;
+        margin-top: 10%;
+      }
+    
+    
+      .blogs1:hover{
+       border-radius: 50px;
+       transition: 400ms;
+       background-color: rgb(231, 231, 231);
+       cursor: pointer;
+      }
+    
+      .todosblogs1{
+       margin-left: 5%;
+       margin-right: 5%;
+      }
+    
+       .ver1{
+        text-align: center;
+       }
+       
+       #mais1, #menos1, #mais21, #menos21, #mais31, #menos31{
+        margin-left: 180px;
+       }
+     
+    
+      .ver1{
+      text-align: center;
+      margin-left: 3%;
+      padding-top: 2%;
+      color: #Fe5301;
+      width: 5%;
+      }
+      #mais1:hover{
+          border-bottom: 1px solid #020240;
+          cursor: pointer;
+      }
+    
+      #menos1{
+        display: none;
+      }
+    
+      #menos1:hover{
+        border-bottom: 1px solid #020240;
+        cursor: pointer;
+    }
+    
+    
+    
+    .next1{
+        display: none
+    }
+    
+    #mais21:hover{
+        border-bottom: 1px solid #020240;
+        cursor: pointer;
+    }
+    
+    #mais21{
+        display: none;
+        text-align: center;
+    }
+    
+    #menos21{
+      display: none;
+      text-align: center;
+    }
+
+    #mais31{
+      display: none;
+      text-align: center;
+  }
   
-  @media only screen and (max-width: 450px) and (min-width: 330px){
+  #menos31{
+    display: none;
+    text-align: center;
+  }
+
+  #mais41{
+    display: none;
+    text-align: center;
+}
+
+#menos41{
+  display: none;
+  text-align: center;
+}
+
+#mais51{
+  display: none;
+  text-align: center;
+}
+
+#menos51{
+display: none;
+text-align: center;
+}
+    
+    #menos21:hover{
+      border-bottom: 1px solid #020240;
+      cursor: pointer;
+    }
+    
+    h5{
+      margin-left: 30%;
+    }
+    
+    .nexts1{
+        display: none;
+    }
+
+    .nextss1{
+      display: none;
+  }
+
+  .nextsss1{
+    display: none;
+}
+
+.nextss1{
+  margin-left: -25%;
+  padding-top: 10%;
+  width: 95%;
+}
+    
+
+.nextsss1{
+  margin-left: -25%;
+  padding-top: 10%;
+  width: 95%;
+}
+    #mais31:hover{
+        border-bottom: 1px solid #020240;
+        cursor: pointer;
+    }
+    
+    #mais31{
+        display: none;
+    }
+    
+    #menos31{
+      display: none;
+    }
+    
+    #menos31:hover{
+      border-bottom: 1px solid #020240;
+      cursor: pointer;
+    }
+  
+    #blog{
+      display: none
+    }
+  }
+
+
+  @media only screen and (max-width: 400px) and (min-width: 330px){
   
       
 
@@ -213,19 +462,18 @@
        margin-right: 5%;
       }
     
-       .ver{
-        margin-left: 47%;
+       .ver1{
+        text-align: center;
        }
        
        #mais1, #menos1, #mais21, #menos21, #mais31, #menos31{
-
         margin-left: 180px;
        }
      
     
       .ver1{
       text-align: center;
-      padding: 1%;
+      margin-left: -5%;
       padding-top: 2%;
       color: #Fe5301;
       width: 5%;
@@ -257,11 +505,43 @@
     
     #mais21{
         display: none;
+        text-align: center;
     }
     
     #menos21{
       display: none;
+      text-align: center;
     }
+
+    #mais31{
+      display: none;
+      text-align: center;
+  }
+  
+  #menos31{
+    display: none;
+    text-align: center;
+  }
+
+  #mais41{
+    display: none;
+    text-align: center;
+}
+
+#menos41{
+  display: none;
+  text-align: center;
+}
+
+#mais51{
+  display: none;
+  text-align: center;
+}
+
+#menos51{
+display: none;
+text-align: center;
+}
     
     #menos21:hover{
       border-bottom: 1px solid #020240;
@@ -275,7 +555,27 @@
     .nexts1{
         display: none;
     }
+
+    .nextss1{
+      display: none;
+  }
+
+  .nextsss1{
+    display: none;
+}
+
+.nextss1{
+  margin-left: -25%;
+  padding-top: 10%;
+  width: 95%;
+}
     
+
+.nextsss1{
+  margin-left: -25%;
+  padding-top: 10%;
+  width: 95%;
+}
     #mais31:hover{
         border-bottom: 1px solid #020240;
         cursor: pointer;

@@ -17,6 +17,9 @@ let bntNicho_e = document.querySelector('#nichoe');
 let nicho_f = document.querySelector('#nicho_f');
 let bntNicho_f = document.querySelector('#nichof');
 
+let nicho_g = document.querySelector('#nicho_g');
+let bntNicho_g = document.querySelector('#nichog');
+
 
 
 let nichos = document.querySelector('#nichos');
@@ -29,11 +32,13 @@ function mostrarNichoA(){
         nicho_b.style.display='none'
         nicho_c.style.display='none'
         nicho_d.style.display='none'
-          nicho_f.style.display='none'
+        nicho_f.style.display='none'
         nicho_a.style.display='block'
         nichos.style.display='none'
         nicho.style.display='none'
         nicho_e.style.display='none'
+
+        nicho_g.style.display='none'
     }
 }
 
@@ -47,6 +52,7 @@ function mostrarNichoB(){
         nicho.style.display='none'
         nicho_f.style.display='none'
         nicho_e.style.display='none'
+        nicho_g.style.display='none'
     }
 }
 
@@ -60,6 +66,7 @@ function mostrarNichoC(){
         nicho.style.display='none'
         nicho_f.style.display='none'
         nicho_e.style.display='none'
+        nicho_g.style.display='none'
     }
 }
 
@@ -73,6 +80,7 @@ function mostrarNichoD(){
         nicho.style.display='none'
         nicho_f.style.display='none'
         nicho_e.style.display='none'
+        nicho_g.style.display='none'
     }
 }
 
@@ -86,6 +94,7 @@ function mostrarNichoE(){
         nicho.style.display='none'
         nicho_f.style.display='none'
         nicho_e.style.display='block'
+        nicho_g.style.display='none'
     }
 }
 
@@ -99,6 +108,21 @@ function mostrarNichoF(){
         nicho.style.display='none'
         nicho_f.style.display='block'
         nicho_e.style.display='none'
+        nicho_g.style.display='none'
+    }
+}
+
+function mostrarNichoG(){
+    if(nicho_g.style.display='none'){
+        nicho_b.style.display='none'
+        nicho_c.style.display='none'
+        nicho_a.style.display='none'
+        nicho_d.style.display='none'
+        nichos.style.display='none'
+        nicho.style.display='none'
+        nicho_f.style.display='none'
+        nicho_e.style.display='none'
+        nicho_g.style.display='block'
     }
 }
 
@@ -108,3 +132,4 @@ bntNicho_c.addEventListener('click', mostrarNichoC);
 bntNicho_d.addEventListener('click', mostrarNichoD);
 bntNicho_e.addEventListener('click', mostrarNichoE);
 bntNicho_f.addEventListener('click', mostrarNichoF);
+bntNicho_g.addEventListener('click', mostrarNichoG);

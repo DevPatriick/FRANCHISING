@@ -50,7 +50,7 @@ h1{
 }
 
 .alt img{
-    padding-left: 2.5%;
+    padding: 3%;
 }
 
 .alt{
@@ -62,7 +62,7 @@ h1{
     margin-top: -1px;
 }
 
-#nicho_a, #nicho_b,  #nicho_c,  #nicho_d, #nicho_e, #nicho_f{
+#nicho_a, #nicho_b,  #nicho_c,  #nicho_d, #nicho_e, #nicho_f, #nicho_g{
     text-align: center;
     margin-top: 10%;
     display: block;
@@ -92,9 +92,15 @@ h1{
     display: none
 }
 
-#nicho_a img, #nicho_b img, #nicho_c img, #nicho_d img,  #nicho_e img,  #nicho_f img{
+#nicho_g{
+    display: none;
+}
+
+#nicho_a img, #nicho_b img, #nicho_c img, #nicho_d img,  #nicho_e img,  #nicho_f img, #nicho_g img{
     padding: 3%
 }
+
+
 
 #down, #up{
     display: none;
@@ -145,7 +151,7 @@ h1{
         margin-top: 12%;
     }
 
-    #nichob,  #nichoc,  #nichod, #nichoe, #nichof{
+    #nichob,  #nichoc,  #nichod, #nichoe, #nichof, #nichog{
         display: none;
     }
 

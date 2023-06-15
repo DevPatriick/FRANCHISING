@@ -108,12 +108,80 @@ html::-webkit-scrollbar{
 #depoiment2{
   display: none;
 }
+@media only screen and (max-width: 450px) and (min-width: 401px){
+  .depoimentos{
+    width: 110%;
+    margin-left: -14%;
+    height:400px;
+
+  }
+
+  .depoimentosresponsive{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 10%;
+  }
+
+  #depoiment{
+    display: none;
+  }
+
+  #depoiment2{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  #btnLL{
+     width: 20px;
+     z-index: 19;
+  }
+
+  #btnRR{
+    width: 20px;
+  margin-left: 95%;  
+   z-index: 19;
+   position: absolute;
+   }
+
+
+
+  #perfil{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: -30%;
+  }
+
   
+.img_depoimentosres{
+display: flex;
+flex-flow: row nowrap;
+transform: translateX(0);
+ transition: 0.7s ease-in-out;
+ margin-left: 8%;
+ width: 100%;
+}
+
+.img_depoimentosres img{
+width: 120%;
+margin-right: 12%;
+margin-left: -7%;
+padding-right: 18%;
+align-items: center;
+}
+
+#gold{
+margin-left: -30%;
+}
+}
   
-  @media only screen and (max-width: 450px) and (min-width: 330px){
+  @media only screen and (max-width: 400px) and (min-width: 330px){
     .depoimentos{
       width: 110%;
-      margin-left: -13%;
+      margin-left: -12%;
       height:400px;
 
     }
@@ -163,14 +231,16 @@ html::-webkit-scrollbar{
   flex-flow: row nowrap;
   transform: translateX(0);
    transition: 0.7s ease-in-out;
-   margin-left: 10%;
+   margin-left: 9%;
+   width: 100%;
 }
 
 .img_depoimentosres img{
-  width: 150%;
+  width: 120%;
  margin-right: 12%;
  margin-left: -12%;
  padding-right: 18%;
+ align-items: center;
 }
 
 #gold{
