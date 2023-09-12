@@ -1,0 +1,65 @@
+#categorias_blog{
+    text-decoration: none;
+    color:#020240;
+    font-family: 'Open Sans', sans-serif;
+text-align: center;
+    height: 100%;
+}
+
+
+.categ{
+    display: flex;
+    width: 80%;
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+.categ p{
+    text-align: center;
+    width: 100%;
+    color:#Fe5301;
+    font-size: 18px;
+    transition: 1000ms;
+}
+
+.categ p:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #Fe5301;
+    border-bottom-width: 50%;
+    transition: 1000ms;
+}
+
+@media only screen and (max-width: 450px) and (min-width: 320px){
+    .categ{
+        display: grid;
+    }
+
+    .categ p{
+        margin-top: 8%;
+    }
+}
+
+#blog_mercado{
+    display: none;
+}
+
+#blogs_franchising{
+    display: block;
+}
+
+#blog_curiosidades{
+    display: none;
+}
+
+#blog_cases{
+    display: none;
+}
+
+#blog_eventos{
+    display: none;
+}
+
+
+#blog_conteudo{
+    display: none;
+}

@@ -9,7 +9,7 @@ h1{
     color:#020240;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 
 .nichos{
@@ -18,7 +18,7 @@ h1{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     color:#Fe5301;
-    margin-top: 10%;
+    margin-top: 5%;
     transition: 500ms;
 }
 
@@ -29,32 +29,27 @@ h1{
     
 }
 
-
-#nichos{
-    text-align: center;
-    margin-top: 10%;
-}
-
-#nichos img{
-    padding: 1%
-}
-
 .common:hover{
     border-bottom: 1px solid #Fe5301;
     padding-bottom: 2px;
     cursor: pointer;
 }
 
-#a{
-    margin-top: -10%;
+#nichos{
+    text-align: center;
+    margin-top: 15px;
+    padding: 1%;
 }
 
 .alt img{
-    padding: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+   
 }
 
 .alt{
-    margin-left: 8%;
+    text-align: center;
 }
 .common h2{
     font-size: 20px;
@@ -62,9 +57,13 @@ h1{
     margin-top: -1px;
 }
 
-#nicho_a, #nicho_b,  #nicho_c,  #nicho_d, #nicho_e, #nicho_f, #nicho_g{
+.nichos{
+    margin-top: 40px;
+}
+
+#nicho_a, #nicho_b,  #nicho_c,  #nicho_d, #nicho_e, #nicho_f, #nicho_g, #nicho_h, #nicho_i, #nicho_j, #nicho_k{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
     display: block;
 }
 
@@ -96,8 +95,30 @@ h1{
     display: none;
 }
 
-#nicho_a img, #nicho_b img, #nicho_c img, #nicho_d img,  #nicho_e img,  #nicho_f img, #nicho_g img{
-    padding: 3%
+#nicho_h{
+    display: none;
+}
+
+#nicho_i{
+    display: none;
+}
+
+#nicho_j{
+    display: none;
+}
+
+#nicho_k{
+    display: none;
+}
+
+#nicho_a img, #nicho_b img, #nicho_c img, #nicho_d img,  #nicho_e img,  #nicho_f img, #nichos img{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#nicho_g img, #nicho_h img, #nicho_i img, #nicho_j img, #nicho_k img{
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 
@@ -108,7 +129,7 @@ h1{
 
 
 @media only screen and (max-width: 450px) and (min-width: 330px){
-      
+    
     .nichos h2{
         font-size: 90%;
     }
@@ -119,16 +140,13 @@ h1{
 
     .nichos{
         display: grid;
+        margin-top: 10px;
     }
 
     .nichos p{
         padding-top: 10%;
         padding-bottom: 10%;
         border-bottom: 1px solid #Fe5301;
-    }
- 
-    .nichos img{
-        margin-top: -3px;
     }
 
     
@@ -139,7 +157,7 @@ h1{
         width: 40px;
         height: 40px;
         margin-left: 68%;
-        margin-top: 12%;
+        margin-top: 4%;
     }
 
     #up{
@@ -148,10 +166,10 @@ h1{
         width: 30px;
         height: 30px;
         margin-left: 70%;
-        margin-top: 12%;
+        margin-top: 4%;
     }
 
-    #nichob,  #nichoc,  #nichod, #nichoe, #nichof, #nichog{
+    #nichob,  #nichoc,  #nichod, #nichoe, #nichof, #nichog, #nichoh, #nichoi, #nichoj, #nichok{
         display: none;
     }
 

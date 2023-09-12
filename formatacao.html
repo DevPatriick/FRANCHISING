@@ -5,38 +5,1198 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/blog/formatacao.css">
-    <link rel="stylesheet" href="./styles/footer.css">
+
+
     <link rel="icon" type="image/png" href="pictures/banners/LOGO FG - REDUZIDO.png">
-    <title>Formatação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" defer></script>
+
+    <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <meta name="description" content="O crescimento da sua empresa começa com a formatação. Dê o primeiro passo para expandir a sua marca como franquia, contate o Franchising Group.">
+    
+    <title>Formatação de franquias</title>
 </head>
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #020240;
+    height: 50px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.contatos{
+    display: flex;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.contatoheaderemail{
+    display: flex;
+    
+}
+
+.contatoheaderemail img{
+    margin-top: -1px;
+    padding-right: 10px;
+}
+
+
+
+.contatoheader{
+    display: flex;
+   width: 50%;
+}
+
+
+.contatoheader img{
+    margin-top: -1px;
+    padding-right: 10px;
+}
+
+header button{
+    width: 310px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: start;
+    padding-left: 25%;
+    border: white;
+    background-color: #FD5301;
+    color: white;
+}
+
+.contatobotao{
+    animation: animar 1.3s linear infinite;
+    margin-top: 5px;
+}
+
+
+
+#head{
+     z-index: 50;
+     width: 30px;
+     height: 30px;
+    margin-left: 10%;
+    margin-top: 5px;
+     position: absolute;
+ }
+
+ 
+@keyframes animar{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+       transform: scale(1.1);
+    }
+
+    100%{
+       transform: scale(1);
+    }
+}
+
+
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+@media only screen and (max-width: 450px) and (min-width: 420px){
+     .contatobotao{
+        margin-left: 30px;
+     }
+}
+
+@media only screen and (max-width: 419px) and (min-width: 400px){
+    .contatobotao{
+       margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 399px) and (min-width: 389px){
+    .contatobotao{
+       margin-left: 17px;
+    }
+}
+
+@media only screen and (max-width: 387px) and (min-width: 375px){
+    .contatobotao{
+       margin-left: 8px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) and (min-width: 330px){
+   
+    .contatoheaderemail{
+        display: flex;
+        margin-top: 5%;
+    }
+
+    .contatoheader{
+        display: flex;
+    }
+    header{
+        display: grid;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #020240;
+        height: 160px;
+    }
+
+    .contatos{
+        display: grid;
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 20%;
+    }
+
+    header button{
+        width: 310px;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 12px;
+        text-align: start;
+        padding-left: 25%;
+        margin-top: -5px;
+        margin-left: 2%;
+        border: white;
+        background-color: #FD5301;
+        color: white;
+        align-items: center;
+    }
+
+    #head{
+       margin-top: -0.1px;
+     }
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -180px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main a{
+    padding-right: 80px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #404041;
+    transition: 900ms;
+}
+
+main a:hover{
+    color: #FD5301;
+    transition: 900ms;
+}
+
+main nav{
+    margin-top: 25px;
+}
+
+#open{
+    display: none;
+}
+
+#close{
+    display: none;
+}
+
+#maps{
+    display: none;
+}
+
+#logo{
+    margin-left: 3%;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 450px) and (min-width: 330px){
+
+    html::-webkit-scrollbar{
+        display: none;
+    }
+    main nav{
+        display: none;
+     }
+
+    #open{
+        display: block;
+        width: 35px;
+        height: 35px;
+        margin-left: 40%;
+        margin-top: 10px;
+     }
+
+    
+    #close{   
+        display: block;
+     }
+    main{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        display: grid;
+    }
+
+    #logo{
+        position: absolute;
+       margin-left: 7%;
+        width: 80%;
+        height: 8%;
+    }
+
+    #maps{
+       display: block;
+       display: grid;
+       margin-top: 10px;
+    }
+
+    .res {
+        display: none;
+        margin-top: 10%;
+        width: 60%;
+        margin-left: -20%;
+    }
+    
+    .res a{
+         border-bottom: 1px solid #020240;
+          padding-left: 50%;
+          color: #020240;
+          display: grid;
+          margin-top: 10%;
+          padding-bottom: 10%;
+          width: 130%;
+          text-align: center;
+    }
+ 
+    
+    #open{
+        display: block;
+        width: 40px;
+        margin-top: 270%;
+        margin-left: -10%;
+    }
+    
+    #close{
+        display: none;
+        width: 40px;
+        margin-top: 40%;
+        margin-left: 42%;
+        width: 35px;
+    }
+}
+
+.video{
+    text-align: center;
+    color: #020240;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    padding-top: 5%;
+    align-self: auto;
+}
+
+#video{
+    background-color: #F5F5F5;
+    padding-bottom: 10%;
+    align-self: 
+    auto;
+    width: 100%;
+}
+
+iframe{
+    align-self: auto;
+    margin-top: 1%;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 15%;
+    width: 70%;
+    height: 530px;
+}
+
+@media only screen and (max-width: 450px){
+    iframe{
+        align-self: auto;
+        margin-top: 1%;
+        justify-content: center;
+        justify-items: center;
+        margin-left: 17%;
+        width: 90%;
+    }
+
+    #frame{
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    #video{
+        background-color: #F5F5F5;
+        padding-bottom: 10%;
+        align-self:auto;
+    }
+}
+
+#beneficios{
+    background-color: #020240;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+text-align: center;
+padding-top: 3%;
+font-size: 120%;;
+}
+
+
+#presenca{
+    width: 55%;
+    margin-left: 5%;
+    margin-top: 10%;
+    height: 40%;
+}
+
+#falecom{
+    background-color: #FD5301;
+    position: absolute;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    width: 12%;
+    height: 90px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5%;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#fale{
+    display: none;
+}
+
+@media only screen and (max-width: 450px){
+    #falecom{
+        display: none;
+    }
+
+    #fale{
+        display: block;
+        border: none;
+        border-radius: 40px;
+        background-color: #FD5301;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        cursor: pointer;
+        width: 70%;
+        height: 50px;
+        margin-left: 15%;
+        margin-top: 5%;
+        margin-bottom: -10%;
+        position: absolute;
+    }
+
+    #presenca{
+        margin-top: 7%;
+    }
+}
+
+
+
+#franchising-group-site-f7280235ee6051d4c13b{
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#mapaformatacao{
+    display: flex;
+}
+
+#banner02{
+margin-top: 5%;
+}
+
+
+#ebook{
+    position: absolute;
+    height: 80px;
+    width: 15%;
+    background-color: #FD5301;
+    margin-left: 84%;
+    padding-left: 1%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+
+
+#ebook button{
+    background-color: #FD5301;
+    border: none;   
+    color: white; 
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 13%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#baixe{
+    margin-top:12%;
+}
+
+
+
+
+@media only screen and (max-width: 450px) and (min-width: 330px){
+    iframe{
+        margin-top: 25%;
+       width: 100%;
+        margin-left: 1%;
+    }
+
+    #ebook{
+        position: absolute;
+        height: 80px;
+        width: 40%;
+        background-color: #FD5301;
+        margin-block-end: auto;
+        margin-left: 60%;
+        padding-left: 1%;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    #baixe{
+        margin-top:17%;
+        margin-left: 10%;
+    }
+
+    #mapaformatacao{
+        display: grid;
+    }
+
+    #presenca{
+        width: 95%;
+        margin-top: 25%;
+        height: 73%;
+    }
+
+    #falecom{
+        background-color: #FD5301;
+        position: absolute;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border: none;
+        width: 40%;
+        height: 80px;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+
+    #franchising-group-site-f7280235ee6051d4c13b{
+        width: 95%;
+        border-radius: 20px;
+        margin-top: 3%;
+        margin-left: 2.5%;
+        font-size: 50%;
+    }
+}
+
+
+
+/* beneficios */
+
+/* .todosbeneficios{
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+   transform: translateX(0);
+    transition: 0.7s ease-in-out;
+    padding-right: 9%;
+}
+
+.bene p{
+    margin-top: 7%;
+}
+
+.number{
+    border:1px solid white;
+    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+.number p{
+    font-size: 30px;
+    margin-top: 13px;
+}
+
+.beneficos{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 9%;
+    width: 100%;
+}
+
+.bene{
+    margin-top: 5%;
+    width: 370px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.bene h1{
+    margin-top: 5%;
+}
+
+.arrows{
+    position: absolute;
+    justify-content: baseline;
+    margin-top: 18%;
+}
+
+#left{
+   margin-right: 95%;
+}
+
+#right{
+    margin-left: 95%;
+}  
+ .the{
+    overflow-x: scroll;
+ }
+
+
+ .the::-webkit-scrollbar{
+    display: none;
+} */
+
+
+
+#beneficios{
+    overflow-x: scroll;
+}
+
+#beneficios::-webkit-scrollbar{
+    display: none;
+}
+
+.img_carousse_formatacao{
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    transform: translateX(0);
+     transition: 0.7s ease-in-out;
+ }
+
+ .img_carousse_formatacao img{
+    width: 100%;
+}
+
+#left{
+    position: absolute;
+    z-index: 1;
+}
+
+#right{
+    position: absolute;
+    margin-left: 95%;
+    z-index: 1;
+}
+
+.arrows{
+    margin-top: 22%;
+    cursor: pointer;
+}
+
+.img_carousse_formatacao_responsive{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 450px){
+    .img_carousse_formatacao{
+        display: none;
+    }
+
+    .img_carousse_formatacao_responsive{
+        display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    transform: translateX(0);
+     transition: 0.7s ease-in-out;
+    }
+
+    
+ .img_carousse_formatacao_responsive img{
+    width: 100%;
+}
+
+#left{
+    position: absolute;
+    z-index: 1;
+}
+
+#right{
+    position: absolute;
+    margin-left: 85%;
+    z-index: 99;
+   width: 55px;
+}
+
+.arrows{
+    margin-top: 45%;
+    cursor: pointer;
+}
+}
+
+
+.ico{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.icos{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    width: 70%;
+}
+
+.icone{
+    width: 100%;
+}
+
+
+.icone h6{
+    font-size: 20px;
+    color:#FD5301;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1%;
+}
+
+.icone p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5%;
+}
+
+.metodo h1{
+    text-align: center;
+    color:#020240;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2%;
+}
+
+@media only screen and (max-width: 450px){
+    .ico{
+        display: grid;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .icos{
+        display: 
+        grid;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 8%;
+        width: 70%;
+    }
+
+    .icone{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+}
+
+footer{
+    background-color: #020240;
+    display: block;
+}
+
+.todoscontatos{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3%;
+}
+
+.pic{
+    display: grid;
+    margin-top: 2%;
+}
+
+.pic img{
+    margin-top: 15%;
+}
+
+.conts{
+    margin-top: 5%;
+    width: 300px;
+    margin-left: 5%;
+}
+
+
+.cont {
+    margin-top: 5%;
+}
+
+
+.cont a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80%;
+    margin-left: 1%;
+    position: absolute;
+    margin-top: 3px;
+}
+
+.imgs{
+     margin-top: 8%;
+     display: flex;
+}
+
+.imgs img{
+    margin-left: 10%;
+}
+
+.todoscontatosresponsive{
+    display: none;
+ }
+   
+@media only screen and (max-width: 450px) and (min-width: 330px){
+    .todoscontatos{
+        display: none
+    }
+
+    .todoscontatosresponsive{
+       display: block;
+    }
+
+    .todoscontatosresponsive{
+        display: flex;
+    }
+
+    .imgs{
+        display: grid;
+      
+    }
+
+    .imgs img{
+      margin-left: 20%;
+      padding-top: 10%;
+        
+    }
+
+   
+
+    .conts{
+       margin-top: 10%;
+       margin-left: 20%;
+    }
+
+    footer{
+        background-color: #020240;
+        height: 800px;
+        margin-top: -8%;
+    }
+
+    #franq, #rico{
+        margin-left: 25%;
+    }
+}
+
+ #abf{
+    margin-left: 10%;
+ }
+
+ #inscreva{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #3C4390;
+    color: white;
+    padding-bottom: 2%;
+}
+
+#inscreva h1{
+    font-style: italic;
+    padding-top: 2%;
+    color: white;
+}
+
+#inscreva h3{
+    margin-top: 1%;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 2%;
+    margin-left: 20%;
+}
+
+#buttoninput{
+    background-color: #Fe5301;
+    color: white;
+    border-radius: 20px;
+    border-color: #Fe5301;
+    width: 180px;
+    height: 40px;
+    font-size: 90%;
+    margin-top: 3%;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.inp{
+    margin-left: -25%;
+}
+
+@media only screen and (max-width: 450px) and (min-width: 330px){
+    #inscreva{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #3C4390;
+        color: white;
+        padding-bottom: 2%;
+        padding: 2%;
+        height: 300px;
+    }
+
+    #buttoninput{
+        background-color: #Fe5301;
+        color: white;
+        border-radius: 20px;
+        border-color: #Fe5301;
+        width: 180px;
+        height: 40px;
+        font-size: 90%;
+        margin-top: 3%;
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 22%;    }
+
+    input{
+        width: 77%;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        padding-left: 2%;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+}
+
+
+
+
+#blog{
+    border-bottom: 1px solid rgb(192, 192, 192);
+  }
+
+  .tal a h1{
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  
+  #blog h1{
+      font-size: 220%;
+      margin-top: 4%;
+      text-align: center;
+    }
+  
+    .blogs h3, h6{
+      color: black;
+      margin-top: 10%;
+      font-family: 'Open Sans', sans-serif;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  
+    .blogs h6{
+      font-size: 80%;
+    }
+  
+    #read{
+      font-size: 70%;
+      margin-bottom: -5%;
+      color: greenyellow;
+    }
+  
+    #name{
+      font-size: 70%;
+      border-top: 1px solid grey;
+      padding-top: 5%;
+      margin-top: 15%;
+    }
+  
+  
+    .blogs{
+      width: 25%;
+      height: 100%;
+      box-shadow: 0 20px 40px rgba(4, 4, 4, 0.1);
+      border-radius: 10px;
+      transition: 400ms;
+      margin-left: 7%;
+      margin-top: 5%;
+      padding-bottom: 1%;
+    }
+  
+  
+    .blogs:hover{
+     border-radius: 50px;
+     transition: 400ms;
+     background-color: rgb(231, 231, 231);
+     cursor: pointer;
+    }
+  
+    .todosblogs{
+      display: flex;
+     margin-left: 10%;
+     margin-right: 10%;
+    }
+  
+     
+  
+   
+  
+    .ver{
+    text-align: center;
+    padding: 1%;
+    padding-top: 2%;
+    color: #Fe5301;
+    width: 5%;
+    text-align: center;
+    margin-left: 48%;
+    }
+    #mais:hover{
+        border-bottom: 1px solid #020240;
+        cursor: pointer;
+    }
+  
+    #menos{
+      display: none;
+    }
+  
+    #menos:hover{
+      border-bottom: 1px solid #020240;
+      cursor: pointer;
+  }
+
+  
+  
+  
+  .next{
+      display: none
+  }
+  
+  #mais2:hover{
+      border-bottom: 1px solid #020240;
+      cursor: pointer;
+  }
+  
+  #mais2{
+      display: none;
+  }
+  
+  #menos2{
+    display: none;
+  }
+  
+  #menos2:hover{
+    border-bottom: 1px solid #020240;
+    cursor: pointer;
+  }
+  
+
+  #mais4:hover{
+    border-bottom: 1px solid #020240;
+    cursor: pointer;
+}
+
+#mais4{
+    display: none;
+}
+
+#menos4{
+  display: none;
+}
+
+#menos4:hover{
+  border-bottom: 1px solid #020240;
+  cursor: pointer;
+}
+
+
+
+#mais5:hover{
+  border-bottom: 1px solid #020240;
+  cursor: pointer;
+}
+
+#mais5{
+  display: none;
+}
+
+#menos5{
+display: none;
+}
+
+#menos5:hover{
+border-bottom: 1px solid #020240;
+cursor: pointer;
+}
+  
+  
+  .nexts{
+      display: none;
+  }
+
+  .nextss{
+    display: none;
+}
+
+.nextsss{
+  display: none;
+}
+
+  
+  #mais3:hover{
+      border-bottom: 1px solid #020240;
+      cursor: pointer;
+  }
+  
+  #mais3{
+      display: none;
+  }
+  
+  #menos3{
+    display: none;
+  }
+  
+  #menos3:hover{
+    border-bottom: 1px solid #020240;
+    cursor: pointer;
+  }
+  
+  h5{
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #blog1{
+    display: none;
+  }
+
+  
+  
+  
+
+
+
+  @media only screen and (max-width: 450px) and (min-width: 320px){
+    .todosblogs{
+      display: grid;
+    }
+
+    #blog{
+      display: block;
+      
+    }
+
+     .todosblogs{
+      width: 96%;
+      margin-bottom: 10%;
+    } 
+    .blogs{
+      width: 90%;
+      margin-left: -4%;
+      margin-bottom: 5%;
+    }
+
+
+  }
+
+</style>
+
+
 <body>
     <header>
 
         <div class="contatos">
             <div class="contatoheader">
                 <img src="./pictures/icons/whatsapp.png" alt="whatsapp" width="20px" height="20px">
-                <a href=""><p>+55 (51) 98323-0038 </p></a>
+                <a href="https://web.whatsapp.com/send?phone=5551983230038&text="><p>+55 (51) 98323-0038 </p></a>
             </div>
     
             <div class="contatoheaderemail">
                 <img src="./pictures/foooter/icones fg_Prancheta 1.png" alt="email" width="20px" height="20px">
-                <a href=""><p>falecomfranchisinggrup.com.br</p></a>
+                <a href="mailto:falecom@franchisinggroup.com.br"><p>falecom@franchisinggroup.com.br</p></a>
             </div>
         </div>
-       
-        <img src="./pictures/icons/whatsapp.png" alt="diagnóstico" id="head">  <a href=""><button> QUERO UM DIAGNÓSTICO <br> GRATUITO DE FRANQUEABILIDADE</button></a>
+ 
+        <div class="contatobotao">
+            <a href=" https://fg.franchisinggroup.com.br/diagnostico-gratuito-de-franqueabilidade-saopaulo" id="aa">
+                <img src="./pictures/icons/information.png" alt="diagnóstico" id="head"><button> QUERO UM DIAGNÓSTICO <br> GRATUITO DE FRANQUEABILIDADE</button>
+            </a>
+        </div>
+        
+      
     </header>
+
     <main>
-        <img src="./pictures/banners/Logotipos Franchising Group-04.png" alt="logo franchising" width="300px" height="80px" id="logo">
+        <img src="./pictures/banners/Logo-assinatura.png" alt="logo franchising" width="350px" height="70px" id="logo">
         <img src="pictures/icons/open.png" alt="open" id="open">
         <img src="pictures/icons/close.png" alt="open" id="close" width="12px">
 
         <nav>
             <a href="index.html"><b> Home</b></a>
             <a href="formatacao.html"><b> Formatação de Franquia</b></a>
-            <a href="https://franchisinggroup.com.br/blog/"><b> Blog do Franchise</b></a>
+            <a href="blog.html"><b> Blog do Franchise</b></a>
         </nav>
 
 
@@ -44,7 +1204,7 @@
                 <div class="res">
                     <a href="index.html"><b>Home</b></a> 
                     <a href="formatacao.html"><b>Formatação de Franquia</b></a> 
-                    <a href="https://franchisinggroup.com.br/blog/"><b>Blog do Franchise</b></a> 
+                    <a href="blog.html"><b>Blog do Franchise</b></a> 
                 </div>
             </div>
 
@@ -55,18 +1215,171 @@
         <div class="video">
             <h1>TRANSFORME O SEU NEGÓCIO  EM UMA FRANQUIA DE SUCESSO!</h1>
         </div>
-         <a href="" id="ebook"><img src="pictures/icons/whatsapp.png" alt="" id="baixe"><button >BAIXE NOSSO EBOOK</button></a>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5oA-54imiFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+         <!-- <a href="" id="ebook"><img src="pictures/icons/whatsapp.png" alt="" id="baixe"><button >BAIXE NOSSO EBOOK</button></a> -->
+         <iframe id="frame" src="https://www.youtube.com/embed/jw2fX2-2aY0" title="Formatação - Franchising Group" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     </section>
 
     <section id="beneficios">
-        <h1>13 BENEFÍCIOS DA FORMATAÇÃO</h1>
+        <h1>14 BENEFÍCIOS DA FORMATAÇÃO</h1>
+        <div id="left" class="arrows">
+            <img src="pictures/icons/left-arrow.png" width="40%">
+        </div>
+        <div id="right" class="arrows">
+            <img src="pictures/icons/right-arrow.png" width="45%">
+        </div>
+
+            <div class="img_carousse_formatacao">
+                <img src="pictures/formatacao/1.jpg" alt="banner 04">
+                <img src="pictures/formatacao/2.jpg"  alt="banner 02">
+                <img src="pictures/formatacao/3.jpg"  alt="banner 01">
+                <img src="pictures/formatacao/4.jpg"  alt="banner 03">
+                <img src="pictures/formatacao/5.jpg"  alt="banner 05">
+            </div>
+
+            <div class="img_carousse_formatacao_responsive">
+                <img src="pictures/formatacao_responsive/1.jpg" alt="">
+                <img src="pictures/formatacao_responsive/2.jpg" alt="">
+                <img src="pictures/formatacao_responsive/3.jpg" alt="">
+                <img src="pictures/formatacao_responsive/4.jpg" alt="">
+                <img src="pictures/formatacao_responsive/5.jpg" alt="">
+                <img src="pictures/formatacao_responsive/6.jpg" alt="">
+                <img src="pictures/formatacao_responsive/7.jpg" alt="">
+                <img src="pictures/formatacao_responsive/8.jpg" alt="">
+                <img src="pictures/formatacao_responsive/9.jpg" alt="">
+                <img src="pictures/formatacao_responsive/10.jpg" alt="">
+                <img src="pictures/formatacao_responsive/11.jpg" alt="">
+                <img src="pictures/formatacao_responsive/12.jpg" alt="">
+                <img src="pictures/formatacao_responsive/13.jpg" alt="">
+                <img src="pictures/formatacao_responsive/14.jpg" alt="">
+            </div>
+
+            <!-- beneficios 1 a 3 -->
+        <!-- <div class="beneficos" width="100%">
+            <div class="bene">
+                <div class="number"><p>1</p></div>
+                <h1>Escale seu negócio <br> sem limites </h1>
+                <p>Está cada vez mais difícil ser pequeno! As micro e pequenas empresas são a maioria a se lançar como franquia. Em um mercado cada dia mais competitivo, expandir é essencial para os negócios sobreviverem a 
+                    longo prazo</p>
+            </div>
+
+            <div class="bene">
+                <div class="number"><p>2</p></div>
+                <h1>Crescer com a energia <br> e o tempo de terceiros</h1>
+                <p>Até onde você crescerá sozinho? Expandir por ﬁliais, sucursais ou subsidiárias limita o potencial de expansão à capacidade de investimento e ao capital dos sócios envolvi- dos. Não só o capital é um limitante, mas também, a falta de tempo e energia dos responsáveis impacta no processo de expansão.</p>
+            </div>
+
+           <div class="bene">
+                <div class="number"><p>3</p></div>
+                <h1>Solução tributária <br> <br> </h1>
+                <p>Um desaﬁo de abrir novas unidades da marca é de conseguir manter as novas operações no regime tributário mais competitivo. O sistema de franquias é uma ótima solução para a otimização da carga tributária</p>
+            </div>
+        </div> -->
+
+        <!-- benefico 4 a 6 -->
+        <!-- <div class="beneficos">
+            <div class="bene">
+                <div class="number"><p>4</p></div>
+                <h1>Crescer com o <br> capital de terceiros
+                </h1>
+                <p>O crédito oferecido para ﬁnanciar a expansão de rede de negócios é escasso e caro. Um caminho alternativo é de se admitir um novo sócio no negócio, que injete capital para o alcance dos objetivos traçados. Na maior parte das vezes, a mudança do quadro societário gera muitos desconfortos e desaﬁos. O crescimento através do sistema de franquias permite a expansão através do capital de terceiros, sem endividar a empresa, e sem diluir o capital dos sócios fundadores.</p>
+            </div>
+
+            <div class="bene">
+                <div class="number"><p>5</p></div>
+                <h1>Velocidade de <br> crescimento</h1>
+                <p>Não havendo limitação de capital para o crescimento, e com a ﬁgura do franqueado como gestor que dedica tempo e energia para garantir a implantação e operação de novas unidades, a velocidade de crescimento de uma rede de franquias é imbatível em comparação a outros siste- mas de expansão de negócios</p>
+            </div>
+
+           <div class="bene">
+                <div class="number"><p>6</p></div>
+                <h1>O olho do dono <br> engorda o boi
+                     
+                </h1>
+                <p>Justamente por investir o seu próprio capital na abertura de uma franquia, o franqueado desenrola um papel muito mais focado e comprometido com o sucesso da nova unidade do que um gestor contratado. A marca ganha um forte aliado para a gestão da nova operação lá na ponta!</p>
+            </div>
+        </div> -->
+
+        <!-- beneficio 7 a 9 -->
+        <!-- <div class="beneficos">
+            <div class="bene">
+                <div class="number"><p>7</p></div>
+                <h1>Sócios locais </h1>
+                <p>O franqueado, sendo ele residente ou conhecedor da região em que implantou a sua franquia, via de regra, possui uma compreensão do mercado local complementar e valiosa para a marca. Afinal de contas, ele entende os hábitos de consumo e os costumes regionais, e fala a linguagem da região, gerando maior capacidade de planejar e reagir frente às peculiaridades dos mercados locais.
+                </p>
+            </div>
+
+            <div class="bene">
+                <div class="number"><p>8</p></div>
+                <h1>O Brasil é um país continental!
+                </h1>
+                <p>A expansão pelo sistema de franquias permite que uma marca chegue a mercados onde jamais imaginou. Em todo o país existem investidores e empreendedores atentos a oportunidades de negócios para as suas regiões. Eles estão acompanhando! De onde você menos imagina, pode surgir um interessado em sua franquia. Esteja pronto!
+                </p>
+            </div>
+
+           <div class="bene">
+                <div class="number"><p>9</p></div>
+                <h1> O Franchise é um circo que está armado!
+                </h1>
+                <p>Talvez a maior vantagem de escolher o franchise, e não qualquer outro sistema de expansão, seja o fato de que o mercado do franchise é um mercado super bem consolidado. Quem busca abrir um negócio, ou pensa em abrir um negócio "do zero", ou busca por uma franquia.
+                </p>
+            </div>
+        </div> -->
+
+        <!-- 10 a 12 -->
+
+        <!-- <div class="beneficos">
+            <div class="bene">
+                <div class="number"><p>10</p></div>
+                <h1>Sistema ganha-ganha
+                </h1>
+                <p>O franchise foi concebido para ser um sistema de negócios ganha-ganha. Isso quer dizer que o franqueador está tão interessado no sucesso do franqueado quanto o franqueado está em recuperar o seu investimento e tornar a sua franquia perene. Por outro lado, o fracasso do franqueado também é o fracasso do franqueador.
+                </p>
+            </div>
+
+            <div class="bene">
+                <div class="number"><p>11</p></div>
+                <h1>Um ponto de partida, muitos passos à frente...
+                </h1>
+                <p>Investir em um negócio próprio, criando uma nova marca, desenvolvendo produtos e fornecedores "do zero", sem haver know-how acumulado sobre a operação e seus desafios, tão pouco sobre o mercado e concorrentes é, certamente, uma empreitada mais arriscada do que investir em um negócio testado e com comprovado sucesso.</p>
+            </div>
+
+           <div class="bene">
+                <div class="number"><p>12</p></div>
+                <h1>Atuação em rede
+                </h1>
+                <p>O empresário no Brasil é um exército de um homem só. Mesmo que se tenha sucesso estabelecendo um negócio "do zero", o empresário nessa situação atua sozinho, em, talvez, mais do que consiga dar conta. Isto porque é ele o responsável por tudo, ou seja, por campanhas e rotinas de marketing, a inovação em novos produtos ou serviços, o recrutamento e seleção e gestão de pessoas, o financeiro, a análise e antecipação em relação à concorrência… Atuando em rede, ganha-se força e nunca atua-se sozinho.
+                </p>
+            </div>
+        </div> -->
+
+        <!-- beneficio 13 e 14 -->
+        <!-- <div class="beneficos">
+            <div class="bene">
+                <div class="number"><p>13</p></div>
+                <h1>Qualidade e padronização
+                </h1>
+                <p>Uma rede de franquias pressupõe a replicação de estratégias e processos operacionais das unidades originais para as unidades franqueadas. A qualidade levada ao público-alvo final é consequência da padronização de processos e a constante revisão, para melhoria contínua.
+                </p>
+            </div>
+
+            <div class="bene">
+                <div class="number"><p>14</p></div>
+                <h1>Ambiente jurídico seguro
+                </h1>
+                <p>No Brasil, existe uma lei específica que regulamenta o sistema de franquias. Sendo sua primeira versão do ano de 1994, e atualizada recentemente, com quase 30 anos de legislação à prova, pode-se dizer que o ambiente de negócios para franquias é um ambiente que traz segurança e estabilidade jurídica para as partes.</p>
+            </div>
+
+           
+        </div>
+        
+        </div> -->
+        
     </section>
 
-    <section id="mapaformatacao">
+    <section id="mapaformatacao" class="falecom">
         <button id="falecom">FALE COM UM <br> ESPECIALISTA</button>
+        <button id="fale">FALE COM UM ESPECIALISTA</button>
         <img src="pictures/banners/Presença FG  2023.png" alt="prsenca" id="presenca">
         <div role="main" id="franchising-group-site-f7280235ee6051d4c13b"></div><script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script><script type="text/javascript"> new RDStationForms('franchising-group-site-f7280235ee6051d4c13b', 'UA-93048931-1').createForm();</script>
     </section>
@@ -75,7 +1388,433 @@
         <img src="pictures/banners/BANNER 2.png" alt="banner02" width="100%">
     </section>
 
+    <section class="metodo" data-aos="fade-up">
+        <h1>METODOLOGIA</h1>
+        <div class="ico" data-aos="fade-up">
+        <div class="icone">
+            <img src="pictures/icones/ilustracao.png" alt="">
+            <p>DEFINIÇÃO DOS</p>
+            <h6>MODELOS DE OPERAÇÃO</h6>
+        </div>
 
+        <div class="icone">
+            <img src="pictures/icones/franquia.png" alt="">
+            <p>CONSTRUÇÃO DO</p>
+            <h6>SISTEMA DE FRANQUIA</h6>
+        </div>
+
+        <div class="icone">
+            <img src="pictures/icones/velocidade-da-pagina.png" alt="">
+            <p>ESTRUTURAÇÃO DA</p>
+            <h6>EMPRESA FRANQUEADORA</h6>
+        </div>
+        </div>
+        <div class="icos" data-aos="fade-up">
+        <div class="icone">
+            <img src="pictures/icones/livro-didatico.png" alt="">
+            <p>DESENVOLVIMENTO DOS </p>
+            <h6>MANUAIS DE FRANQUIA</h6>
+        </div>
+
+        <div class="icone">
+            <img src="pictures/icones/balancas.png" alt="">
+            <p>ELABORAÇÃO DOS</p>
+            <h6>INSTRUMENTOS JURÍDICOS</h6>
+        </div>
+        </div>
+        
+        
+    </section>
+
+
+
+    <section id="blog" class="tal">
+        <a href="blog.html"><h1>BLOG DO FRANCHISE</h1></a>
+        <div class="todosblogs">
+        <div class="blogs">
+           <a href="paginas/blog_1.html"><img src="pictures/blogs/história do mercado de franchise.png" alt="filmes" width="100%">
+            <h3>A História do Franchising no Brasil e no Mundo</h3>
+            <h6>O setor de franquias é um mercado em ascensão, o qual muitos empreendedores recorrem quando decidem investir em um negócio, mas também serve como escada para aqueles que já têm uma marca de sucesso e querem expandir.
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Mariana Porto - </h6> </a>
+        </div>
+
+        <div class="blogs">
+           <a href="paginas/conteudo_blog.html"> <img src="pictures/blogs/leis franquias.png" alt="filmes" width="100%">
+            <h3>Tudo o que você precisa saber sobre a Lei de Franquias</h3>
+            <h6>A franquia é um acordo legal entre um franqueador e um franqueado – e com isso vem um conjunto de regulamentos que você deve seguir.
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Mariana Porto - </h6> </a>
+        </div>
+
+        <div class="blogs">
+          <a href="paginas/mercado_blog.html">  <img src="pictures/blogs/desempenho franchise.png" alt="filmes" width="100%">
+            <h3>Desempenho do Frachising</h3>
+            <h6>A Associação Brasileira do Franchising (ABF), promove trimestralmente a pesquisa de desempenho do setor, como uma maneira de registrar e comparar as mudanças ocorridas em determinados períodos.
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Mariana Porto - </h6> </a>
+        </div>
+
+    </div>
+
+   
+   <div class="ver">
+    <a href="blog.html">
+        <h5 id="mais">Ver mais</h5>
+    </a>
+    
+    
+   </div>
+<!---------------------mais-->
+
+        <!-- <div class="todosblogs next">
+           <div class="blogs">
+            <a href="https://franchisinggroup.com.br/2023/02/23/nova-lei-de-franquia-o-que-mudou/"> <img src="pictures/banners/Alteracoes-da-Lei-de-Franquia.-Empresas-que-ainda-nao-se-atualizaram-para-as-mudancas-768x404.png" alt="filmes" width="100%">
+            <h3>Nova Lei de Franquia – O que mudou?</h3>
+            <h6>A Lei n° 13.966/2019, conhecida como a nova lei de franquias, está em vigor desde março de 2020 e foi criada com o objetivo de
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 23 de fevereiro de 2023</h6> </a>
+        </div>
+
+        <div class="blogs">
+         <a href="https://franchisinggroup.com.br/2023/02/22/e-commerce-para-franquias/">  <img src="pictures/banners/E-Commerce-para-franquias-768x404.png" alt="filmes" width="100%">
+            <h3>E-Commerce para Franquias</h3>
+            <h6>O mundo está em transformação. Diante ao cenário atual, o e-commerce para franquias está tendo um aumento significativo. Com as pessoas migrando cada vez mais
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 22 de fevereiro de 2023</h6> </a>
+        </div>
+
+        <div class="blogs">
+          <a href="https://franchisinggroup.com.br/2023/02/20/a-importancia-da-assessoria-de-imprensa/">  <img src="pictures/banners/A-importancia-da-Assessoria-de-imprensa-768x404.png" alt="filmes" width="100%">
+            <h3>A importância da Assessoria de Imprensa</h3>
+            <h6>A Assessoria de Imprensa é uma função extremamente necessária na comunicação. São os assessores que fazem o intermédio entre a imprensa e as empresas, oferecendo
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 20 de fevereiro de 2023</h6> </a>
+        </div>
+        </div>
+
+        <div class="ver">
+            <h5 id="mais2">Ver mais</h5>
+            <h5 id="menos2">Ver menos</h5>
+           </div>
+
+           
+
+           <div class="todosblogs nexts">
+            <div class="blogs">
+           <a href="https://franchisinggroup.com.br/2023/02/17/7-ideias-para-inovar-a-sua-franquia/"><img src="pictures/banners/7-ideias-para-inovar-a-sua-franquia.-768x404.png" alt="filmes" width="100%">
+            <h3>7 ideias para inovar a sua franquia</h3>
+            <h6>Para manter uma marca com força no mercado, é preciso estar constantemente atualizando. Nesse sentido, inovação deve ser uma palavra sempre presente. Seja na empresa
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 17 de fevereiro de 2023</h6> </a> 
+        </div>
+
+        <div class="blogs">
+            <a href="https://franchisinggroup.com.br/2023/02/14/marketplace-uma-plataforma-que-pode-aumentar-as-vendas/">  <img src="pictures/banners/Filmes-que-todo-franqueador-pode-assistir-1024x539.png" alt="filmes" width="100%">
+          <h3>Marketplace: uma plataforma que pode aumentar as vendas</h3>
+            <h6>A pandemia de Covid-19 obrigou muitas empresas a terem que se reinventar. Tanto nos serviços, como nos processos de comunicação. Nesse sentido, os meios digitais
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 14 de fevereiro de 2023</h6></a> 
+        </div>
+
+        <div class="blogs">
+          <a href="https://franchisinggroup.com.br/2023/02/10/como-utilizar-o-crm-em-sua-franquia/"> <img src="pictures/banners/Como-pode-ser-utilizado-o-CRM-150x150.png" alt="filmes" width="100%" height="145px">
+            <h3>Como utilizar o CRM em sua Franquia</h3>
+            <h6>Você sabe o que é o CRM? O Customer Relationship Management é um instrumento que auxilia as marcas a manterem ou construírem o relacionamento com
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 10 de fevereiro de 2023</h6></a> 
+        </div>
+        </div>
+
+        <div class="ver">
+            <h5 id="mais3">Ver mais</h5>
+            <h5 id="menos3">Ver menos</h5>
+        </div>
+
+        <div class="todosblogs nextss">
+            <div class="blogs">
+          <a href="https://franchisinggroup.com.br/2023/02/07/como-identificar-uma-franquia-mal-estruturada/">  <img src="pictures/banners/Como-identificar-uma-franquia-mal-estruturada-768x404.png" alt="filmes" width="100%">
+            <h3>Como identificar uma franquia mal estruturada?</h3>
+            <h6>O mercado de Franchising ficou conhecido por sua variedade de marcas, cada uma com os seus próprios processos de qualidade e sistema de funcionamento. Diante
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 7 de fevereiro de 2023</h6> </a>
+        </div>
+
+        <div class="blogs">
+         <a href="https://franchisinggroup.com.br/2023/02/03/modelos-de-negocios-inovadores-para-franquias/">   <img src="pictures/banners/Modelos-de-Negocio-Inovadores-para-Franquias-768x404.png" alt="filmes" width="100%">
+            <h3>Modelos de negócios inovadores para Franquias</h3>
+            <h6>A abertura de um novo empreendimento, por si só já é inovador para o proprietário que está abrindo. Afinal, ele está colocando os seus recursos
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 14 de fevereiro de 2023</h6> </a>
+        </div>
+
+        <div class="blogs">
+         <a href="https://franchisinggroup.com.br/2023/01/30/segmento-de-franquias/">  <img src="pictures/banners/Segmentos_de_Franquias_2-768x403.jpg" alt="filmes" width="100%">
+            <h3>Qual o melhor segmento de Franquias?</h3>
+            <h6>O mercado de franchising é repleto de opções que se encaixam nas características de cada empreendedor. É muito importante antes de mais nada, o investidor
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 30 de janeiro de 2023</h6> </a> 
+        </div>
+        </div>
+
+        <div class="ver">
+            <h5 id="mais4">Ver mais</h5>
+            <h5 id="menos4">Ver menos</h5>
+        </div>
+
+
+
+
+        <div class="todosblogs nextsss">
+            <div class="blogs">
+         <a href="https://franchisinggroup.com.br/2023/01/27/onde-encontro-opcoes-de-franquias/">  <img src="pictures/banners/Onde_encontrar_Franquias_2-768x404.jpg" alt="filmes" width="100%">
+            <h3>Onde encontrar opções de Franquias?</h3>
+            <h6>A Franchising Group é uma marca dedicada ao universo do franchising. Entre os principais serviços disponibilizados, estão a formatação, expansão e gestão da rede de
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 27 de janeiro de 2023</h6></a> 
+        </div>
+
+        <div class="blogs">
+          <a href="https://franchisinggroup.com.br/2023/01/25/agronegocio-e-a-sua-importancia-para-o-brasil/"> <img src="pictures/banners/Oportunidades_de_Franquias_de_Agronegocio_2-768x403.jpg" alt="filmes" width="100%">
+            <h3>Agronegócio e a sua importância para o Brasil</h3>
+            <h6>O agronegócio é um setor vital no aspecto econômico da sociedade mundial, pois envolve uma cadeia de produção alimentar que interliga vários setores, como a
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 25 de janeiro de 2023</h6> </a> 
+        </div>
+
+        <div class="blogs">
+          <a href="https://franchisinggroup.com.br/2023/01/23/franquia/"> <img src="pictures/banners/Sistematizacao_do_modelo_de_Franquia_2-768x403.jpg" alt="filmes" width="100%">
+            <h3>Qualquer empresa pode ser Franquia?</h3>
+            <h6>O mercado de franquias cresceu muito nos últimos anos e continua apresentando bons números. Trata-se de um modelo de negócios conhecido por todos, mesmo que
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 10 de fevereiro de 2023</h6> </a> 
+        </div>
+        </div>
+
+        <div class="ver">
+            <h5 id="mais5">Ver mais</h5>
+            <h5 id="menos5">Ver menos</h5>
+        </div>
+    </section> -->
+
+    <section id="blog1">
+        <h1>BLOG DO FRANCHISE</h1>
+        <div class="todosblogs1">
+        <div class="blogs1">
+            <a href="paginas/blog_1.html">  <img src="pictures/blogs/história do mercado de franchise.png" alt="filmes" width="100%">
+            <h3>A História do Franchising no Brasil e no Mundo</h3>
+            <h6>O setor de franquias é um mercado em ascensão, o qual muitos empreendedores recorrem quando decidem investir em um negócio, mas também serve como escada para aqueles que já têm uma marca de sucesso e querem expandir.
+                Embora no Brasil tenha ganhado evidência recentemente, esse tipo de investimento não é novo.
+           
+            </h6>
+            <h6 id="read1">READ MORE</h6>
+            <h6 id="name1">Mariana Porto - </h6> </a>
+        </div>
+
+        <div class="blogs1">
+            <a href="paginas/conteudo_blog.html">  <img src="pictures/blogs/leis franquias.png" alt="filmes" width="100%">
+            <h3>Tudo o que você precisa saber sobre a Lei de Franquias</h3>
+            <h6>A franquia é um acordo legal entre um franqueador e um franqueado – e com isso vem um conjunto de regulamentos que você deve seguir.
+            </h6>
+            <h6 id="read1">READ MORE</h6>
+            <h6 id="name1">Mariana Porto - </h6> </a>
+        </div>
+
+        <div class="blogs1">
+            <a href="paginas/mercado_blog.html">    <img src="pictures/blogs/desempenho franchise.png" alt="filmes" width="100%">
+            <h3>Desempenho do Frachising</h3>
+            <h6>A Associação Brasileira do Franchising (ABF), promove trimestralmente a pesquisa de desempenho do setor, como uma maneira de registrar e comparar as mudanças ocorridas em determinados períodos.
+            </h6>
+            <h6 id="read1">READ MORE</h6>
+            <h6 id="name1">Mariana Porto - </h6> </a>
+        </div>
+
+    </div>
+
+   
+   <div class="ver1">
+    <h5 id="mais1">Ver mais</h5>
+    <h5 id="menos1">Ver menos</h5>
+   </div>
+
+
+        <div class="todosblogs1 next1">
+            <div class="blogs1">
+                <a href="https://franchisinggroup.com.br/2023/02/23/nova-lei-de-franquia-o-que-mudou/">   <img src="pictures/banners/pictures/banners/Alteracoes-da-Lei-de-Franquia.-Empresas-que-ainda-nao-se-atualizaram-para-as-mudancas-768x404.png" alt="filmes" width="100%">
+            <h3>Nova Lei de Franquia – O que mudou?</h3>
+            <h6>A Lei n° 13.966/2019, conhecida como a nova lei de franquias, está em vigor desde março de 2020 e foi criada com o objetivo de
+            </h6>
+            <h6 id="read1">READ MORE</h6>
+            <h6 id="name1">Cristiano Gottilieb - 23 de fevereiro de 2023</h6> </a>
+        </div>
+
+        <div class="blogs1">
+            <a href="https://franchisinggroup.com.br/2023/02/22/e-commerce-para-franquias/">  <img src="pictures/banners/E-Commerce-para-franquias-768x404.png" alt="filmes" width="100%">
+            <h3>E-Commerce para Franquias</h3>
+            <h6>O mundo está em transformação. Diante ao cenário atual, o e-commerce para franquias está tendo um aumento significativo. Com as pessoas migrando cada vez mais
+            </h6>
+            <h6 id="read1">READ MORE</h6>
+            <h6 id="name1">Cristiano Gottilieb - 22 de fevereiro de 2023</h6> </a>
+        </div>
+
+        <div class="blogs1">
+            <a href="https://franchisinggroup.com.br/2023/02/20/a-importancia-da-assessoria-de-imprensa/">  <img src="pictures/banners/A-importancia-da-Assessoria-de-imprensa-768x404.png" alt="filmes" width="100%">
+            <h3>A importância da Assessoria de Imprensa</h3>
+            <h6>A Assessoria de Imprensa é uma função extremamente necessária na comunicação. São os assessores que fazem o intermédio entre a imprensa e as empresas, oferecendo
+            </h6>
+            <h6 id="read1">READ MORE</h6>
+            <h6 id="name1">Cristiano Gottilieb - 20 de fevereiro de 2023</h6> </a>
+        </div>
+        </div>
+
+        <div class="ver1">
+            <h5 id="mais21">Ver mais</h5>
+            <h5 id="menos21">Ver menos</h5>
+           </div>
+
+           
+
+           <div class="todosblogs1 nexts1">
+            <div class="blogs1">
+                <a href="https://franchisinggroup.com.br/2023/02/17/7-ideias-para-inovar-a-sua-franquia/"> <img src="pictures/banners/7-ideias-para-inovar-a-sua-franquia.-768x404.png" alt="filmes" width="100%">
+            <h3>7 ideias para inovar a sua franquia</h3>
+            <h6>Para manter uma marca com força no mercado, é preciso estar constantemente atualizando. Nesse sentido, inovação deve ser uma palavra sempre presente. Seja na empresa
+            </h6>
+            <h6 id="read1">READ MORE</h6>
+            <h6 id="name1">Cristiano Gottilieb - 17 de fevereiro de 2023</h6> </a>
+        </div>
+
+        <div class="blogs1">
+            <a href="https://franchisinggroup.com.br/2023/02/14/marketplace-uma-plataforma-que-pode-aumentar-as-vendas/"><img src="pictures/banners/" alt="filmes" width="100%">
+            <h3>Marketplace: uma plataforma que pode aumentar as vendas</h3>
+            <h6>A pandemia de Covid-19 obrigou muitas empresas a terem que se reinventar. Tanto nos serviços, como nos processos de comunicação. Nesse sentido, os meios digitais
+            </h6>
+            <h6 id="read1">READ MORE</h6>
+            <h6 id="name1">Cristiano Gottilieb - 14 de fevereiro de 2023</h6> </a>
+        </div>
+
+        <div class="blogs1">
+            <a href="https://franchisinggroup.com.br/2023/02/10/como-utilizar-o-crm-em-sua-franquia/"> <img src="pictures/banners/Como-pode-ser-utilizadoooooooooooo-o-CRM-768x404.png" alt="filmes" width="100%">
+            <h3>Qualquer empresa pode ser Franquia?</h3>
+            <h6>O mercado de franquias cresceu muito nos últimos anos e continua apresentando bons números. Trata-se de um modelo de negócios conhecido por todos, mesmo que
+            </h6>
+            <h6 id="read1">READ MORE</h6>
+            <h6 id="name1">Cristiano Gottilieb - 10 de fevereiro de 2023</h6> </a>
+        </div>
+        </div>
+
+        <div class="ver1">
+            <h5 id="mais31">Ver mais</h5>
+            <h5 id="menos31">Ver menos</h5>
+        </div>
+
+        <div class="todosblogs nextss1">
+            <div class="blogs">
+                <a href="https://franchisinggroup.com.br/2023/02/07/como-identificar-uma-franquia-mal-estruturada/"> <img src="pictures/banners/Como-identificar-uma-franquia-mal-estruturada-768x404.png" alt="filmes" width="100%">
+            <h3>Como identificar uma franquia mal estruturada?</h3>
+            <h6>O mercado de Franchising ficou conhecido por sua variedade de marcas, cada uma com os seus próprios processos de qualidade e sistema de funcionamento. Diante
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 7 de fevereiro de 2023</h6> </a>
+        </div>
+
+        <div class="blogs">
+            <a href="https://franchisinggroup.com.br/2023/02/03/modelos-de-negocios-inovadores-para-franquias/">  <img src="pictures/banners/Modelos-de-Negocio-Inovadores-para-Franquias-768x404.png" alt="filmes" width="100%">
+            <h3>Modelos de negócios inovadores para Franquias</h3>
+            <h6>A abertura de um novo empreendimento, por si só já é inovador para o proprietário que está abrindo. Afinal, ele está colocando os seus recursos
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 14 de fevereiro de 2023</h6> </a>
+        </div>
+
+        <div class="blogs">
+            <a href="https://franchisinggroup.com.br/2023/01/30/segmento-de-franquias/">  <img src="pictures/banners/Segmentos_de_Franquias_2-768x403.jpg" alt="filmes" width="100%">
+            <h3>Qual o melhor segmento de Franquias?</h3>
+            <h6>O mercado de franchising é repleto de opções que se encaixam nas características de cada empreendedor. É muito importante antes de mais nada, o investidor
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Cristiano Gottilieb - 30 de janeiro de 2023</h6> </a>
+        </div>
+        </div>
+
+        <div class="ver">
+            <h5 id="mais41">Ver mais</h5>
+            <h5 id="menos41">Ver menos</h5>
+        </div>
+
+
+
+
+        <div class="todosblogs nextsss1">
+            <div class="blogs">
+                <a href="https://franchisinggroup.com.br/2023/01/27/onde-encontro-opcoes-de-franquias/">  <img src="pictures/banners/Onde_encontrar_Franquias_2-768x404.jpg" alt="filmes" width="100%">
+            <h3>Onde encontrar opções de Franquias?</h3>
+            <h6>A Franchising Group é uma marca dedicada ao universo do franchising. Entre os principais serviços disponibilizados, estão a formatação, expansão e gestão da rede de
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Mariana Porto - </h6> </a>
+        </div>
+
+        <div class="blogs">
+            <img src="pictures/banners/Oportunidades_de_Franquias_de_Agronegocio_2-768x403.jpg" alt="filmes" width="100%">
+            <a href="https://franchisinggroup.com.br/2023/01/25/agronegocio-e-a-sua-importancia-para-o-brasil/"> <h3>Agronegócio e a sua importância para o Brasil</h3>
+            <h6>O agronegócio é um setor vital no aspecto econômico da sociedade mundial, pois envolve uma cadeia de produção alimentar que interliga vários setores, como a
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Maraina Porto - </h6> </a>
+        </div>
+
+        <div class="blogs">
+            <a href="https://franchisinggroup.com.br/2023/01/23/franquia/">  <img src="pictures/banners/Sistematizacao_do_modelo_de_Franquia_2-768x403.jpg" alt="filmes" width="100%">
+            <h3>Qualquer empresa pode ser Franquia?</h3>
+            <h6>O mercado de franquias cresceu muito nos últimos anos e continua apresentando bons números. Trata-se de um modelo de negócios conhecido por todos, mesmo que
+            </h6>
+            <h6 id="read">READ MORE</h6>
+            <h6 id="name">Mariana Porto - </h6> </a>
+        </div>
+        </div>
+
+        <div class="ver">
+            <h5 id="mais51">Ver mais</h5>
+            <h5 id="menos51">Ver menos</h5>
+        </div>
+    </section>
+    </section>
+
+
+    
+
+
+
+
+
+
+
+
+
+    <section id="inscreva">
+        <h1>INSCREVA-SE E RECEBA A FG NEWS</h1>
+        <H3>Fique por dentro do que acontece no universo do franchise!</H3>
+        <div class="inp">
+         <input type="text" placeholder="Seu e-mail">
+         <button id="buttoninput">RECEBER CONTEÚDO</button>
+        </div>
+ </section>
 
 
     <footer>
@@ -164,5 +1903,12 @@
 
 
     <script src="moviments/menu_responsive.js"></script>
+    <script src="moviments/formatacao.js"></script>
+    <script src="moviments/formatacao_responsive.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init({
+    duration: 1000
+  })</script>
 </body>
 </html>

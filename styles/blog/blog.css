@@ -1,0 +1,90 @@
+.blog_franchise{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10%;
+}
+
+.blog_franchise h1{
+    font-size: 40px;
+    color: #020240;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.blog_franchise h5{
+    font-size: 20px;
+    color: #020240;
+    margin-top: 2%;
+}
+
+.coluna a{
+    color: black;
+}
+
+.coluna{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+    width: 30%;
+    transition: 700ms;
+}
+
+.coluna img{
+    width: 100%;
+    margin-top: 5%;
+    padding: 0;
+}
+
+.coluna:hover{
+    background-color: rgb(241, 239, 239);
+    transition: 1000ms;
+    cursor: pointer;
+}
+
+.coluna h2{
+    color: #020240;
+    text-align: start;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.text{
+    display: flex;
+    width: 52%;
+    justify-content: space-around;
+}
+
+.descri{
+    width: 100%;
+    text-align: start;
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+.blogs_coluna{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 450px) and (min-width: 320px){
+     .blogs_coluna{
+        display: grid;
+        width: 90%;
+        margin-left: 3%;
+     }
+
+     .coluna{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 5%;
+        width: 100%;
+        transition: 700ms;
+    }
+}

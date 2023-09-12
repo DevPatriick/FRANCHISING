@@ -3,31 +3,58 @@
     color: #020240;
     font-family: 'Open Sans', sans-serif;
     font-size: 150%;
-    border-top: 1px solid #020240;
     padding-top: 5%;
-  
+    align-self: auto;
 }
 
 #video{
     background-color: #F5F5F5;
     padding-bottom: 10%;
+    align-self: 
+    auto;
+    width: 100%;
 }
 
 iframe{
-    margin-left: 30%;
-    margin-top: 5%;
+    align-self: auto;
+    margin-top: 1%;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 15%;
+    width: 70%;
+    height: 530px;
 }
 
+@media only screen and (max-width: 450px){
+    iframe{
+        align-self: auto;
+        margin-top: 1%;
+        justify-content: center;
+        justify-items: center;
+        margin-left: 17%;
+        width: 90%;
+    }
+
+    #frame{
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    #video{
+        background-color: #F5F5F5;
+        padding-bottom: 10%;
+        align-self:auto;
+    }
+}
 
 #beneficios{
-    background-color: #3C4390;
+    background-color: #020240;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    width: 100%;
-    height: 300px;
 text-align: center;
 padding-top: 3%;
-font-size: 120%;
+font-size: 120%;;
 }
 
 
@@ -41,20 +68,53 @@ font-size: 120%;
 #falecom{
     background-color: #FD5301;
     position: absolute;
-    border-top-right-radius: 19px;
-    border-bottom-right-radius: 19px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
     border: none;
-    width: 10%;
-    height: 50px;
+    width: 12%;
+    height: 90px;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 10%;
+    margin-top: 5%;
     cursor: pointer;
+    font-size: 15px;
 }
+
+#fale{
+    display: none;
+}
+
+@media only screen and (max-width: 450px){
+    #falecom{
+        display: none;
+    }
+
+    #fale{
+        display: block;
+        border: none;
+        border-radius: 40px;
+        background-color: #FD5301;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        cursor: pointer;
+        width: 70%;
+        height: 50px;
+        margin-left: 15%;
+        margin-top: 5%;
+        margin-bottom: -10%;
+        position: absolute;
+    }
+
+    #presenca{
+        margin-top: 7%;
+    }
+}
+
+
 
 #franchising-group-site-f7280235ee6051d4c13b{
     width: 30%;
-    height: 50%;
+    height: 30%;
     border-radius: 20px;
     margin-top: 3%;
     margin-left: 5%;
@@ -88,10 +148,288 @@ margin-top: 5%;
     color: white; 
     margin-left: 10%;
     position: absolute;
-    margin-top: 7%;
+    margin-top: 13%;
     font-family: 'Open Sans', sans-serif;
 }
 
 #baixe{
     margin-top:12%;
+}
+
+
+
+
+@media only screen and (max-width: 450px) and (min-width: 330px){
+    iframe{
+        margin-top: 25%;
+       width: 100%;
+        margin-left: 1%;
+    }
+
+    #ebook{
+        position: absolute;
+        height: 80px;
+        width: 40%;
+        background-color: #FD5301;
+        margin-block-end: auto;
+        margin-left: 60%;
+        padding-left: 1%;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    #baixe{
+        margin-top:17%;
+        margin-left: 10%;
+    }
+
+    #mapaformatacao{
+        display: grid;
+    }
+
+    #presenca{
+        width: 95%;
+        margin-top: 25%;
+        height: 73%;
+    }
+
+    #falecom{
+        background-color: #FD5301;
+        position: absolute;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border: none;
+        width: 40%;
+        height: 80px;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+
+    #franchising-group-site-f7280235ee6051d4c13b{
+        width: 95%;
+        border-radius: 20px;
+        margin-top: 3%;
+        margin-left: 2.5%;
+        font-size: 50%;
+    }
+}
+
+
+
+/* beneficios */
+
+/* .todosbeneficios{
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+   transform: translateX(0);
+    transition: 0.7s ease-in-out;
+    padding-right: 9%;
+}
+
+.bene p{
+    margin-top: 7%;
+}
+
+.number{
+    border:1px solid white;
+    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+.number p{
+    font-size: 30px;
+    margin-top: 13px;
+}
+
+.beneficos{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 9%;
+    width: 100%;
+}
+
+.bene{
+    margin-top: 5%;
+    width: 370px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.bene h1{
+    margin-top: 5%;
+}
+
+.arrows{
+    position: absolute;
+    justify-content: baseline;
+    margin-top: 18%;
+}
+
+#left{
+   margin-right: 95%;
+}
+
+#right{
+    margin-left: 95%;
+}  
+ .the{
+    overflow-x: scroll;
+ }
+
+
+ .the::-webkit-scrollbar{
+    display: none;
+} */
+
+
+
+#beneficios{
+    overflow-x: scroll;
+}
+
+#beneficios::-webkit-scrollbar{
+    display: none;
+}
+
+.img_carousse_formatacao{
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    transform: translateX(0);
+     transition: 0.7s ease-in-out;
+ }
+
+ .img_carousse_formatacao img{
+    width: 100%;
+}
+
+#left{
+    position: absolute;
+    z-index: 1;
+}
+
+#right{
+    position: absolute;
+    margin-left: 95%;
+    z-index: 1;
+}
+
+.arrows{
+    margin-top: 22%;
+    cursor: pointer;
+}
+
+.img_carousse_formatacao_responsive{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 450px){
+    .img_carousse_formatacao{
+        display: none;
+    }
+
+    .img_carousse_formatacao_responsive{
+        display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    transform: translateX(0);
+     transition: 0.7s ease-in-out;
+    }
+
+    
+ .img_carousse_formatacao_responsive img{
+    width: 100%;
+}
+
+#left{
+    position: absolute;
+    z-index: 1;
+}
+
+#right{
+    position: absolute;
+    margin-left: 85%;
+    z-index: 99;
+   width: 55px;
+}
+
+.arrows{
+    margin-top: 45%;
+    cursor: pointer;
+}
+}
+
+
+.ico{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.icos{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    width: 70%;
+}
+
+.icone{
+    width: 100%;
+}
+
+
+.icone h6{
+    font-size: 20px;
+    color:#FD5301;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1%;
+}
+
+.icone p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5%;
+}
+
+.metodo h1{
+    text-align: center;
+    color:#020240;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2%;
+}
+
+@media only screen and (max-width: 450px){
+    .ico{
+        display: grid;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .icos{
+        display: 
+        grid;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 8%;
+        width: 70%;
+    }
+
+    .icone{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
 }

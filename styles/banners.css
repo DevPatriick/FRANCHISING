@@ -20,7 +20,7 @@
 }
 
 #responsivo_branco{
-display: none;
+  display: none;
 }
 
 .img_carousse img{
@@ -44,7 +44,7 @@ display: none;
 }
 
 
-@media only screen and (max-width: 450px) and (min-width: 401px){
+@media only screen and (max-width: 450px) and (min-width: 400px){
     #carousse{
         display: none;
     }
@@ -66,14 +66,12 @@ display: none;
        flex-flow: row nowrap;
        transform: translateX(0);
         transition: 0.7s ease-in-out;
-        
        margin-left: 13%;
     }
     
     .img_carousse_responsive img{
         position: relative;
-       width: 100%;
-      padding-right: 25%;
+        padding-right: 12%;
     }
 
     
@@ -97,7 +95,59 @@ display: none;
     }
 }
 
-@media only screen and (max-width: 400px) and (min-width: 330px){
+@media only screen and (max-width: 399px) and (min-width: 381px){
+    #carousse{
+        display: none;
+    }
+
+    #carousse_responsive{
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 40px;
+        display: block;
+    }
+
+
+    #carousse_responsive::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .img_carousse_responsive{
+       display: flex;
+       flex-flow: row nowrap;
+       transform: translateX(0);
+        transition: 0.7s ease-in-out;
+       margin-left: 12%;
+    }
+    
+    .img_carousse_responsive img{
+        position: relative;
+        padding-right: 12%;
+    }
+
+    
+    #left3{
+        position: absolute;
+        z-index: 1;
+       margin-top: 35%;
+    }
+    
+    #right3{
+        position: absolute;
+        z-index: 1;
+        margin-left: 93%;
+        margin-top: 35%;
+        width:7%;
+    }
+    
+    .arrows{
+        margin-top: 10%;
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (max-width: 380px) and (min-width: 330px){
     #carousse{
         display: none;
     }
@@ -125,7 +175,7 @@ display: none;
     .img_carousse_responsive img{
         position: relative;
        width: 100%;
-      padding-right: 20%;
+       padding-right: 7%;
     }
 
     
@@ -144,13 +194,13 @@ display: none;
     }
     
     .arrows{
-        margin-top: 10%;
+        margin-top: 6%;
         cursor: pointer;
     }
 
 }
 
-@media only screen and (max-width: 400px) and (min-width: 370px){
+@media only screen and (max-width: 400px) and (min-width: 400px){
     #carousse{
         display: none;
     }

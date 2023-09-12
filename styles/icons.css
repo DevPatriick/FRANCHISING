@@ -1,8 +1,7 @@
 .service{
     display: flex;
    padding: 1%;
-   margin-left: 12%;
-   margin-right: 20%;
+   justify-content: center;
 }
 
 .service img{
@@ -57,7 +56,7 @@
     background-color: #020240;
     border-radius: 15px;
     margin-top: 5%;
-    font-size: 80%;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: white;
@@ -67,8 +66,17 @@
     transition: opacity .7s ease;
 }
 
+#fg{
+    margin-top: -50px;
+}
+
 #blocoa p{
-    padding-top: 17%;
+    padding-top: 14%;
+    font-size: 16px;
+}
+
+.blocos p{
+    font-size: 16px;
 }
 
 #blocoaa{
